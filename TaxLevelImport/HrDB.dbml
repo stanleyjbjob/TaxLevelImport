@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SunriseHR" Class="HrDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=jb-vsts;Initial Catalog=SunriseHR;User ID=jb" SettingsObjectName="TaxLevelImport.Properties.Settings" SettingsPropertyName="SunriseHRConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TAXLVL" Member="TAXLVL">
+    <Type Name="TAXLVL">
+      <Column Name="YEAR" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AMT_H" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AMT_L" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER0" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER1" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER2" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER3" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER4" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER5" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER6" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER7" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER8" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER9" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER10" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="PER11" Type="System.Decimal" DbType="Decimal(16,2) NOT NULL" CanBeNull="false" />
+      <Column Name="KEY_MAN" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="KEY_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TAXLVL" Member="TAXLVL1">
+    <Type Name="TAXLVL1">
+      <Column Name="YEAR" Type="System.String" DbType="Char(3) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AMT_H" Type="System.Double" DbType="Float NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="AMT_L" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER0" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER1" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER2" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER3" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER4" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER5" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER6" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER7" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER8" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER9" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="PER10" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="KEY_MAN" Type="System.String" DbType="Char(8) NOT NULL" CanBeNull="false" />
+      <Column Name="KEY_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
