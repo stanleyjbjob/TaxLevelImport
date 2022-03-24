@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <EnableSecurityDebugging>false</EnableSecurityDebugging>
+    <ProjectView>ShowAllFiles</ProjectView>
+    <PublishUrlHistory>ftp://192.168.1.24/AutoUpdate/|ftp://192.168.1.24/d/JBHR/Publish/AutoUpdate/|\\192.168.1.24\d\JBHR\Publish\AutoUpdate\</PublishUrlHistory>
+    <InstallUrlHistory>http://publish.jbjob.com.tw/Publish/AutoUpdate/|\\192.168.1.24\d\JBHR\Publish\AutoUpdate\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>zh-TW</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,23 @@
+CREATE TABLE [dbo].[PARAMETER](
+	[AUTO] [int] IDENTITY(1,1) NOT NULL,
+	[PARMGROUP_AUTO] [int] NOT NULL,
+	[CODE] [nvarchar](50) NOT NULL,
+	[TYPE] [nvarchar](50) NOT NULL,
+	[VALUE] [nvarchar](50) NOT NULL,
+	[KEY_DATE] [datetime] NOT NULL,
+	[KEY_MAN] [nvarchar](50) NOT NULL,
+	[NOTE] [nvarchar](50) NULL,
+	[NOTE1] [nvarchar](50) NULL,
+	[NOTE2] [nvarchar](50) NULL,
+	[NOTE3] [nvarchar](50) NULL,
+	[NOTE4] [nvarchar](50) NULL,
+	[NOTE5] [nvarchar](50) NULL,
+	[DISPLAY] [bit] NOT NULL,
+ CONSTRAINT [PK_PARAMETER] PRIMARY KEY CLUSTERED 
+(
+	[AUTO] ASC
+)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+
+
